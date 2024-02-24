@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+body {
+    background-image: url(assets/papel-de-parede-leao-cosmico.jpg.webp);
+    background: linear-gradient(rgbs(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    max-width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gradien
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img-perfil {
+    height: 120px;
+    border-radius: 50%;
+}
+
+.bio {
+    color: #f0ebf6;
+    font-size: 0.8em;
+    text-align: center;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    margin-top: 30px;
+}
+h3 {
+    margin-top: 30px;font-weight: bold;
+
+}
+p {
+    font-size: 1.2em;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.contato ul {
+    display: flex;
+    margin-top: 25px;
+    padding: 60px;
+}
+
+a {
+    padding: 15px;
+    
+}
+
+.contato img {
+    width: 50;
+}
+
